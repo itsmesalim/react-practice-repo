@@ -1,5 +1,11 @@
 .container {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 200px;
+  width: 40%;
   padding-top: 0;
   padding: 100px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
 }
