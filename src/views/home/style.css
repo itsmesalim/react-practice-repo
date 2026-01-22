@@ -1,0 +1,35 @@
+.main-container {
+  color: antiquewhite;
+  background-color: #242424;
+  /* border: 1px solid white; */
+  /* margin: 0; */
+}
+
+b {
+  color: rgb(201, 130, 38);
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 134, 134);
+  border-radius: 10px;
+  border: 1px solid red;
+  margin-bottom: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}

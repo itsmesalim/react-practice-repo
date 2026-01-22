@@ -1,0 +1,30 @@
+.netflex-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 20px auto;
+  /* padding: 5px; */
+  width: 96%;
+  justify-self: center;
+  /* border: 1px solid white; */
+}
+
+@media screen and (max-width: 1024px) {
+  .netflex-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .netflex-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .netflex-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+  }
+}
